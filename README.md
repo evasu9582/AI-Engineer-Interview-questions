@@ -1,8 +1,8 @@
-1. Why do you use temperature parameter for your RAG Pipeline?
+## 1. Why do you use temperature parameter for your RAG Pipeline?
 
 Ans). temperature parameter use to control the randomness of the LLM's responses. In RAG pipeline, generally configure a low temperature around 0.1 or 0.2, because i want the LLM to generate consistent and factual answers based on the retrieved document context rather the production creative or speculative reponses.
 
-2. What is RAG and How do you implement a RAG pipeline for you AI Powered document intelligence project?
+## 2. What is RAG and How do you implement a RAG pipeline for you AI Powered document intelligence project?
 
 ans). I worked on an AI-powered document intelligence project where users could ask questions and get answers from large collections of PDF documents.
 
@@ -19,7 +19,7 @@ I also implemented batch processing, parallel execution, and error handling to m
 The main goal was to help users quickly find accurate information from thousands of documents."
 
 
-3. How would you handle large pdf and how you handle tables, images and charts?
+## 3. How would you handle large pdf and how you handle tables, images and charts?
 
 Ans). "In my project, I handled large PDF documents using a batch-based and parallel processing approach instead of processing all documents at once.
 
@@ -39,7 +39,7 @@ To handle large volumes efficiently, I also used parallel processing, batch embe
 Finally, when users asked questions, the system retrieved relevant information from the PDFs and generated answers with document and page references."
 
 
-4. You are using different tools to handle like images ,text, tables and charts. How will you store or make them align as it is in same order?
+## 4. You are using different tools to handle like images ,text, tables and charts. How will you store or make them align as it is in same order?
 
 Ans). Since I use different tools to extract text, tables, images, and charts, I maintain a common document structure to preserve their original order.
 
@@ -50,7 +50,7 @@ After extraction, I sort the elements based on their page number and position. T
 I preserve the metadata along with each chunk and generate embeddings. This helps the RAG system retrieve the relevant content while maintaining its original document context and page references.
 
 
-5. What are the types of retrieval search?
+## 5. What are the types of retrieval search?
 
 Ans). In RAG, the main retrieval techniques are keyword-based search, semantic search, and hybrid search.
 
@@ -75,7 +75,7 @@ Remember this for interviews:
     llm=llm
 )
 
-6. what is the difference between grounding and guardrails?
+## 6. what is the difference between grounding and guardrails?
 
 Ans). In GenAI and RAG applications, Grounding and Guardrails are two different techniques used to make AI responses more reliable and safe.
 
@@ -83,7 +83,7 @@ The main difference is:
 - Grounding: Ensures the AI generates answers based on trusted information or provided context.
 - Guardrails: Ensures the AI follows predefined rules, restrictions, and safety policies.
 
-7. What are the challenges did you face while building AI powered document inteligence application?
+## 7. What are the challenges did you face while building AI powered document inteligence application?
 
 ans). While building an AI-powered document intelligence application using RAG, I faced several challenges.
 
@@ -101,7 +101,7 @@ Finally, I focused on scalability and reliability using batch processing, retrie
 
 Overall, the main challenge was not just generating answers using an LLM, but ensuring that the answers were accurate, relevant, scalable, and based on the original documents.
 
-7. How did you improve retrieval accuracy?
+## 7. How did you improve retrieval accuracy?
 
 ans). To improve retrieval accuracy in my RAG-based document intelligence project, I focused on several areas.
 
@@ -119,7 +119,7 @@ Finally, I evaluated retrieval performance using metrics like Recall@K, Precisio
 
 These techniques helped improve the relevance of retrieved information and the overall quality of RAG responses.
 
-8. How did you decide the chunk size and overlap?
+## 8. How did you decide the chunk size and overlap?
 
 ans). In my understanding, chunk size determines how much text is stored in each chunk, while chunk overlap is the repeated text shared between consecutive chunks.
 
@@ -138,7 +138,7 @@ Easy way to remember:
 - Too large: Irrelevant information may be retrieved.
 - Goal: Balance context and retrieval accuracy.
 
-9. How did you reduce hallucinations?
+## 9. How did you reduce hallucinations?
 
 ans). hallucination happens when an LLM generates incorrect or unsupported information. To reduce hallucinations in my RAG-based document intelligence application, I would focus on grounding the LLM with relevant information from the source documents.
 
@@ -158,7 +158,7 @@ Key techniques to remember:
 5. Citations: Show document names and page numbers.
 6. Low temperature: Reduce randomness in responses.
 
-10. How do you measure retrieval accuracy?
+## 10. How do you measure retrieval accuracy?
 ans). This is another important interview point.
     Metric	Meaning
     Recall@K	Whether the relevant chunks are present in the top K results
@@ -173,7 +173,7 @@ ans). This is another important interview point.
 
     So precision is 80%.
 
-11. What is transformer architecture?
+## 11. What is transformer architecture?
 
 ans). Transformer is a deep learning architecture mainly used in NLP and Generative AI. It is designed to understand relationships between words in a sentence using a mechanism called Self-Attention.
 
@@ -188,7 +188,7 @@ The main components of Transformer architecture are:
 6. Encoder and Decoder: The encoder understands the input, while the decoder generates the output.
 Transformers are the foundation of modern models like GPT, BERT, and T5.
 
-12. How would you handle 100K PDFs in a RAG pipeline?
+## 12. How would you handle 100K PDFs in a RAG pipeline?
 
 Interview-ready answer:
 
