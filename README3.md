@@ -1,4 +1,4 @@
-19. What is summarization, and how will you implement it?
+## 19. What is summarization, and how will you implement it?
 
 Summarization is the process of converting long text or documents into a shorter version while keeping the important information and main meaning.
 
@@ -11,7 +11,7 @@ Two common types:
 1. Extractive summarization: Selects important sentences directly from the original text.
 2. Abstractive summarization: Generates new, shorter sentences using an LLM while preserving the original meaning.
 
-20. What is scalability, and how do you make your GenAI application scalable?
+## 20. What is scalability, and how do you make your GenAI application scalable?
 
 Scalability means the ability of an application to handle increasing numbers of users, requests, and data without affecting performance.
 
@@ -22,7 +22,7 @@ Scalability means an application can handle increasing users, requests and data 
 Easy way to remember: Cloud → Load Balancing → Parallel Processing → Caching → Auto-scaling.
 
 
-21. What is prompting, and what are the different prompting techniques?
+## 21. What is prompting, and what are the different prompting techniques?
 
 Prompting is the process of giving instructions or questions to an LLM to get the desired response.
 
@@ -41,7 +41,7 @@ Prompting is the process of providing clear instructions, context and examples t
 
 Easy way to remember: Zero-shot → One-shot → Few-shot → Chain-of-Thought → Role-based → Contextual.
 
-22. Why do we need guardrails in an LLM, and how do you implement them?
+## 22. Why do we need guardrails in an LLM, and how do you implement them?
 
 ans).
 
@@ -62,7 +62,7 @@ ans).
 
     Easy way to remember: Input Validation → Prompt Protection → Content Filtering → PII Detection → Output Validation.
 
-23. What is fine-tuning?
+## 23. What is fine-tuning?
 
 ans). Fine-tuning is the process of taking an already pre-trained LLM and training it further using specific domain-related data to improve its performance for a particular task.
 
@@ -81,7 +81,7 @@ ans). Fine-tuning is the process of taking an already pre-trained LLM and traini
 
     Easy way to remember: Fine-tuning = Teach the model. RAG = Give the model information.
 
-24. What are the initial steps in an Agentic AI flow?
+## 24. What are the initial steps in an Agentic AI flow?
 
 ans). An Agentic AI flow starts by understanding the user's goal, planning the required tasks and deciding which tools to use.
 
@@ -102,7 +102,7 @@ ans). An Agentic AI flow starts by understanding the user's goal, planning the r
 
     Easy way to remember: Understand → Plan → Select Tools → Execute → Observe → Decide → Respond.
 
-25. what is fine tuning?
+## 25. what is fine tuning?
 
 ans). Fine-tuning is the process of taking an already pre-trained LLM and training it further using specific domain-related data to improve its performance for a particular task.
 
@@ -121,7 +121,7 @@ If we have a general LLM and want it to answer banking-related questions more ef
 
 Easy way to remember: Fine-tuning = Teach the model. RAG = Give the model information.
 
-26. What are the initial steps in an Agentic AI flow?
+## 26. What are the initial steps in an Agentic AI flow?
 
 An Agentic AI flow starts by understanding the user's goal, planning the required tasks and deciding which tools to use.
 

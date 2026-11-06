@@ -1,4 +1,4 @@
-13. what is the difference between Gen AI and Agentic AI?
+## 13. what is the difference between Gen AI and Agentic AI?
 ans). Generative AI and Agentic AI are related concepts, but their purposes are different.
 
 Generative AI is used to generate new content such as text, images, code, audio or videos based on user prompts. It mainly focuses on understanding the input and generating a response.
@@ -11,12 +11,12 @@ But an Agentic AI system can search for flights, compare hotel prices, check ava
 
 So, the main difference is that Generative AI focuses on content generation, whereas Agentic AI focuses on achieving goals by taking actions.
 
-14. what is the difference between langchain and langraph?
+## 14. what is the difference between langchain and langraph?
 ans). 
     LangChain = Building blocks for LLM applications.
     LangGraph = Controlling the flow of complex AI workflows.
 
-15. How did you reduce the latecy in RAG application?
+## 15. How did you reduce the latecy in RAG application?
 
 ans) In my understanding, latency means the time taken by the application to process a user's query and return the final response.
 
@@ -40,7 +40,7 @@ To reduce latency in my RAG-based document intelligence application, I would opt
 
 Overall, my approach was to optimize PDF processing, retrieval, prompt size and LLM response time to improve the application's performance.”
 
-16. Is there any latest updates on RAG?
+## 16. Is there any latest updates on RAG?
 
 Yes! As of October 2026, RAG is evolving beyond traditional vector-based retrieval. The major trend is toward Agentic RAG, Multimodal RAG, Graph RAG, and more advanced retrieval techniques.
 
@@ -227,7 +227,7 @@ In my understanding, the overall direction is to make RAG systems more accurate,
 
 My recommendation: Focus especially on Agentic RAG and Multimodal RAG. They are directly connected to your experience preparing a document intelligence system that processes large numbers of PDFs. 
 
-17. how will you evaluate the RAG application response?
+## 17. how will you evaluate the RAG application response?
 
 Ans).
 
@@ -326,7 +326,7 @@ Easy way to remember for interviews:
 - Generation evaluation = Did I generate the right answer?
 - Performance evaluation = Did I generate it efficiently?
 
-18. How will you protect the RAG application from attackers?
+## 18. How will you protect the RAG application from attackers?
 
 ans).
 
