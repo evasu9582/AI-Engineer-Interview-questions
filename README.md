@@ -93,7 +93,7 @@ ans). While building an AI-powered document intelligence application using RAG, 
 
 **Third, maintaining context during chunking**. Random chunking sometimes separated headings, tables, and related paragraphs. To solve this, I used document-aware chunking and preserved page numbers and metadata.
 
-**Fourth, retrieval accuracy. **Sometimes the system retrieved irrelevant chunks. I improved this by combining keyword search and semantic search using hybrid retrieval, followed by reranking.
+**Fourth, retrieval accuracy.** Sometimes the system retrieved irrelevant chunks. I improved this by combining keyword search and semantic search using hybrid retrieval, followed by reranking.
 
 **Fifth, hallucination.** Sometimes the LLM generated answers that were not supported by the documents. I addressed this through grounding, context-based prompts, and source citations.
 
@@ -200,7 +200,7 @@ I would divide the process into the following steps:
 
 First, I would store all PDF files in object storage like AWS S3 or Azure Blob Storage. I would maintain metadata such as document ID, file name, upload date and document version. I would also use checksums to identify duplicate files.
 
-2\.** Distributed document processing**
+2\.**Distributed document processing**
 
 I would use a message queue like Kafka, RabbitMQ or AWS SQS to distribute PDF processing tasks among multiple workers.
 
@@ -216,15 +216,15 @@ I would start with around 500–800 tokens per chunk and 50–100 tokens of over
 
 Next, I would generate embeddings in batches using an embedding model. I would use parallel processing with proper rate limits, retries and error handling to avoid API failures.
 
-5\.** Vector database storage**
+5\.**Vector database storage**
 
 I would store the embeddings along with the original text and metadata in a scalable vector database like Qdrant, Milvus or Pinecone.
 
-6\.** Retrieval optimization**
+6\.**Retrieval optimization**
 
 When a user asks a question, I would use hybrid search, combining semantic search and keyword search. Then I would apply reranking to select the most relevant chunks before passing them to the LLM.
 
-7\.** Performance and reliability**
+7\.**Performance and reliability**
 
 Finally, I would implement batch processing, checkpointing, logging, retry mechanisms and incremental indexing. This ensures that if processing fails, I don't need to process all 100K PDFs again. I would also monitor ingestion time, query latency, retrieval accuracy and processing failures.”
 
